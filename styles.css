@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+body{
+	justify-content:center;
+	align-items:center;
+	margin:0;
+	display:flex;
+	height:100vh;
+}
+div{
+	height:200px;
+	width:200px;
+	background-color:lightblue;
+	border: 2px solid black; 
+	justify-content:center;
+	align-items:center;
+	margin:0;
+	display:flex;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+	color:purple;
+	
+}
